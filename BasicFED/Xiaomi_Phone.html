@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Phone Store</title>
+	<link rel="stylesheet" type="text/css" href="xiaomi.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<!-- <style>.mySlides {display:none;}</style> -->
+</head>
+<body>
+	<nav class="nav">
+		<li class="head">Xiaomi Store</li>
+		<li><button>
+			<a href="cart.html" onclick="cartNumber()"></a>
+			<i id="car-info" class="material-icons" >shopping_cart</i></button>
+			</a>
+		</li>
+	</nav>
+	<div>
+			<img class="slider" src="xiaomi1.jpg">
+			<img class="slider" src="xiaomi2.jpg">
+			<img class="slider" src="xiaomi4.jpg">
+			<img class="slider" src="xiaomi3.png">
+			<img class="slider" src="xiaomi5.jpg">
+	
+		<button class="w3-button w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+		<button class="w3-button w3-display-right" onclick="plusDivs(+1)">&#10095;</button>
+	</div>
+	<section>
+		<div class="title">
+			<h1>Latest Product</h1>
+		</div>
+
+
+	<div class="product-center container">
+		<div class="product">
+			<div class="product-header">
+				<img src="poco_m3.jpg">
+			</div>
+			<div class="product-footer">
+				<a href="#" id="order" class="add-cart">
+					<h3>POCO M3</h3><br>
+					<p>4GB RAM<br>128GB Storage</p>
+				</a>
+				<h4 class="price" >7,990</h4>
+				<button class="btn" onclick="setItem()">order</button>
+			</div>
+		</div>
+		<div class="product">
+			<div class="product-header">
+				<img src="Xiaomi_Mi_10T.jpg">
+			</div>
+			<div class="product-footer">
+				<a href="#">
+					<h3>Xiaomi Mi 10T</h3>
+					<p>8GB RAM<br>128GB Storage</p>
+				</a>
+				<h4 class="price">20,990</h4>
+				<button class="btn">order</button>
+			</div>
+		</div>
+		<div class="product">
+			<div class="product-header">
+				<img src="Xiaomi-Poco-X3-NFC-1.jpg">
+			</div>
+			<div class="product-footer">
+				<a href="#">
+					<h3>POCO X3 NFC</h3>
+					<P>8GB RAM<br>128 Storage</P>
+				</a>
+				<h4 class="price">12,990</h4>
+				<button class="btn">order</button>
+			</div>
+		</div>
+
+		<div class="product">
+			<div class="product-header">
+				<img src="Xiaomi-Poco-F2-Pro.jpg">
+			</div>
+			<div class="product-footer">
+				<a href="#">
+					<h3>POCO F2 Pro</h3>
+					<p>8GB RAM<br>128GB Storage</p>
+				</a>
+				<h4 class="price">29,990</h4>
+				<button class="btn">order</button>
+			</div>
+		</div>
+		<div class="product">
+			<div class="product-header">
+				<img src="xiaomi_mi_10.jpg">
+			</div>
+			<div class="product-footer">
+				<a href="#">
+					<h3>Xiaomi Mi 10</h3><br>
+					<p>8GB RAM<br>128GB Storage</p>
+					
+				</a>
+				<h4 class="price">36,990</h4>
+				<button class="btn">order</button>
+			</div>
+		</div>
+		<div class="product">
+			<div class="product-header">
+				<img src="mi_10_pro.jfif">
+			</div>
+			<div class="product-footer">
+				<a href="#">
+					<h3>Xiaomi Mi 10</h3><br>
+					<p>8GB RAM<br>128GB Storage</p>
+					
+				</a>
+				<h4 class="price">45,990</h4>
+				<button class="btn">order</button>
+			</div>
+		</div>
+		<div class="product">
+			<div class="product-header">
+				<img src="blackshark3.png">
+			</div>
+			<div class="product-footer">
+				<a href="#">
+					<h3>Xiaomi Black Shark 3</h3>
+					<p>8GBRAM<br>128GB Storage</p>
+					
+				</a>
+				<h4 class="price">34,995</h4>
+				<button class="btn">order</button>
+			</div>
+		</div>
+		<div class="product">
+			<div class="product-header">
+				<img src="black_shark_3_pro.jpg">
+			</div>
+			<div class="product-footer">
+				<a href="#">
+					<h3>Xiaomi Black Shark 3 Pro</h3>
+					<p>8GBRAM<br>128GB Storage</p>
+					
+				</a>
+				<h4 class="price">44,990</h4>
+				<button class="btn">order</button>
+			</div>
+		</div>
+	</div>
+</section>	
+</body>
+<script type="text/javascript" src="xiaomi.js"></script>
+<script src="cart.js"></script>
+<!-- <script type="text/javascript" src="cartv2.js"></script> -->
+</html>
